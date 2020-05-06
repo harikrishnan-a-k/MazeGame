@@ -1,0 +1,70 @@
+body{
+    margin: 0;
+    background-color: black;
+}
+.hidden{
+    display: none !important;
+}
+.winMessage{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: 100;
+    height: 100vh;
+    width: 100vw;
+    
+}
+.winMessage h1{
+    color: white;
+    font-size: 100px;
+    text-align: center;
+}
+.winMessage button{
+    color: white;
+    background: blue;
+    padding: 20px;
+    border: none;
+    opacity: 1 !important;
+}
+
+
+.buttons button{
+    padding: 10px 10px;
+    opacity: 0.3;
+    height: 110px;
+    width: 110px;
+    border-radius: 50%;
+    z-index: 10;
+    
+}
+.ArrowLeft{
+    position: fixed;
+    bottom:80px;
+    left:0px;
+
+
+}
+.ArrowRight{
+   
+    position: fixed;
+    bottom:80px;
+    left:200px;
+
+}
+.ArrowUp{
+    position: fixed;
+    bottom:170px;
+    left:100px;
+
+}
+.ArrowDown{
+    position: fixed;
+    bottom:0px;
+    left:100px;
+
+}
+button i{
+    font-size: 3rem;
+}

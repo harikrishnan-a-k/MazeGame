@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maze Gmae</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+
+    <div class="winMessage hidden">
+        <h1> You Won  !!!</h1>
+        
+        <button id="refresh"> Play Again</button>
+    </div>
+
+<div class="buttons hidden">
+    <button  class="ArrowLeft"  ><i id="ArrowLeft" class="fas fa-arrow-left" ></i></button>
+    <button  class="ArrowUp"><i id="ArrowUp" class="fas fa-arrow-up"></i></button>
+    <button class="ArrowDown" ><i id="ArrowDown" class="fas fa-arrow-down"></i></button>
+    <button  class="ArrowRight"><i id="ArrowRight" class="fas fa-arrow-right"></i></button>
+</div>
+<audio src="gamWin.wav" id="gameWinSound"></audio>
+
+    <!-- matter.js library file -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/matter-js/0.14.2/matter.min.js"></script>
+
+<script src="script.js"></script>
+</body>
+</html>
